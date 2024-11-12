@@ -20,7 +20,7 @@ header{
   height: 5rem;
 background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
   margin: 0 auto;
-  
+   overflow-x: hidden;
   border-bottom: 0px solid rgb(155, 109, 109);
   z-index: 6;
   box-shadow: 1px 1px  rgb(155, 109, 109);
@@ -104,7 +104,7 @@ FONT-WEIGHT: BOLD;
   margin-top: -20px;
   border-top: 3px solid brown;
   margin-bottom: -20px;
-
+ overflow-x: hidden;
 }
 .hi{
  position: absolute;
