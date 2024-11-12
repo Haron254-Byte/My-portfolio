@@ -8,7 +8,7 @@ body{
   overflow-x: hidden;
  position: relative
   background-color: #ebe9e1;
- margin: 0 auto;
+
   font-family: sans-serif;
  
  
@@ -19,7 +19,7 @@ header{
    width: 105%;
   height: 5rem;
 background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
-  margin: 0 auto;
+  margin: -8px;
    overflow-x: hidden;
   border-bottom: 0px solid rgb(155, 109, 109);
   z-index: 6;
