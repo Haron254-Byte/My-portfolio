@@ -16,7 +16,7 @@ body{
 header{
   position: fixed;
   top: 0;
-  width: 100vw;
+   width: 105%;
   height: 5rem;
 background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
   margin: 0 auto;
@@ -96,7 +96,7 @@ FONT-WEIGHT: BOLD;
 
 #welcome-section{
   position: relative;
-  width: 100%;
+   width: 105%;
   background: radial-gradient(circle at 70%, #333, #333 50%, #eee 75%, #333 75%);
   height: 600px;
   text-align: center;
