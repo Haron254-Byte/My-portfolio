@@ -3,6 +3,7 @@
   *{scroll-behavior:smooth;}
 }
 body{
+ width: 105%;
   height: 100%;
   overflow-x: hidden;
  position: relative
