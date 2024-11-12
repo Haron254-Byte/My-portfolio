@@ -1,14 +1,16 @@
+@media (min-width: 1000px){
+  color: blue;
+}
 @media(prefers-reduced-motion :no-preference)
 {
   *{scroll-behavior:smooth;}
 }
 body{
- width: 105%;
   height: 100%;
   overflow-x: hidden;
- position: relative
+  position: relative;
   background-color: #ebe9e1;
-
+  margin: -150px auto;
   font-family: sans-serif;
  
  
@@ -16,11 +18,11 @@ body{
 header{
   position: fixed;
   top: 0;
-   width: 105%;
+  width: 100vw;
   height: 5rem;
 background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
+  margin: 0 auto;
   margin: -8px;
-   overflow-x: hidden;
   border-bottom: 0px solid rgb(155, 109, 109);
   z-index: 6;
   box-shadow: 1px 1px  rgb(155, 109, 109);
@@ -96,7 +98,7 @@ FONT-WEIGHT: BOLD;
 
 #welcome-section{
   position: relative;
-   width: 105%;
+  width: 100vw;
   background: radial-gradient(circle at 70%, #333, #333 50%, #eee 75%, #333 75%);
   height: 600px;
   text-align: center;
@@ -104,7 +106,7 @@ FONT-WEIGHT: BOLD;
   margin-top: -20px;
   border-top: 3px solid brown;
   margin-bottom: -20px;
- overflow-x: hidden;
+
 }
 .hi{
  position: absolute;
@@ -150,7 +152,7 @@ main{
   display: flex;
    flex-wrap: wrap;
    justify-content: center;
- 
+   margin: 50px;
 }
 a:nth-of-typea:not(.contactinfo)(2), a:nth-of-type(4){
 float: left;
@@ -245,5 +247,8 @@ label{
 h1{
 COLOR: #DAE2F8;
 }
+
+
+
 
 
