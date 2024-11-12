@@ -19,7 +19,7 @@ header{
   height: 5rem;
 background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
   margin: 0 auto;
-  margin: -8px;
+  
   border-bottom: 0px solid rgb(155, 109, 109);
   z-index: 6;
   box-shadow: 1px 1px  rgb(155, 109, 109);
