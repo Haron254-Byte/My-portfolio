@@ -1,27 +1,4 @@
-@media (min-width: 1000px){
-  color: blue;
-}
-@media(prefers-reduced-motion :no-preference)
-{
-  *{scroll-behavior:smooth;}
-}
-body{
-  height: 100%;
-  overflow-x: hidden;
-  position: relative;
-  background-color: #ebe9e1;
-  
-  font-family: sans-serif;
- 
- 
-}
-header{
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 5vw;
-background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
-  margin: 0 auto;
+
   margin: -8px;
   border-bottom: 0px solid rgb(155, 109, 109);
   z-index: 6;
@@ -44,7 +21,7 @@ FONT-WEIGHT: BOLD;
    
  
  
-  font-size: 2vw;
+  font-size: 18px;
   
   
   
@@ -84,7 +61,7 @@ FONT-WEIGHT: BOLD;
 
 #projects a{
   text-decoration: none;
-  font-size: 5vw;
+  font-size: ;
   margin: 10px;
  
 }
@@ -136,7 +113,7 @@ main{
   
   bottom: 0;
   margin: -8px;
- height: 300px;
+ height: 60vh;
  width: 100vw;
  background-color: grey;
  color: white;
@@ -171,22 +148,22 @@ p{
 }
 .project-tile p{
   background-color: rgba(74, 69, 69,0.8);
-  height: 8vw;
+  height: 45px;
   margin-top: -4px;
   border: 1px solid black;
   vertical-align: middle;
-  line-height: 8vw;
+  line-height: 45px;
   color: #DAE2F8;
   FONT-WEIGHT: BOLD;
   TEXT-SHADOW: 1PX 1PX BLACK;;
   border-radius: 5px;
-  
+  width: 340px;
   
   
 }
 iframe{
-  width: 50vw;
-  height: 40vw;
+ width: 340px;
+ height: 340px;
   border: 10px solid gray;
   margin-bottom: -4px;
   border: 1px solid black;
@@ -198,9 +175,9 @@ iframe{
 
 #profile-link{
   position: absolute;
-  bottom: 350px;
+  bottom: 19%;
 background: -webkit-linear-gradient(45deg,#DAE2F8,#DAE2F8);
-font-size: 2rem;
+font-size: 20px;
 text-decoration: none;
 margin-top: 0;
 PADDING: 10PX;
@@ -214,14 +191,14 @@ BOX-SHADOW: 2PX 2PX GRAY;
   position:absolute;
   right:25px;
   bottom: 20px;
-  font-size: 2vw;
+  font-size: 18px;
 }
 
 .contactinfo{
 
 
   margin: 20 auto -50 auto;
-  font-size: 3vw; 
+  font-size: 18px; 
 }
 .span1{
 float: left;
@@ -232,12 +209,12 @@ font-size: 1.5vw;
 .span2{
 float: right;
 font-size: 1.5vw;
-margin-left: -115px;
+
 }
 hr{
   
-  position: relative;
-  bottom: 4%;
+  position: absolute;
+  bottom: 3%;
  width: 100vw;
   border: 2px solid -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);;
   
@@ -254,6 +231,8 @@ label{
 h1{
 COLOR: #DAE2F8;
 }
+
+
 
 
 
