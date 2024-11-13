@@ -3,7 +3,7 @@
   .project-tile{
   display:flex;
   flex-direction: row !important;
-  align-items: center;
+  align-items: center !important;
   flex-wrap: wrap;
   }
   .project-tile p, iframe{
@@ -165,7 +165,7 @@ main{
 
 }
 #projects h2{
-   margin-top: 60px;
+   margin-top: 60px !important;
   text-align: center;
   font-size: 4.5vw;
   text-decoration: underline;
