@@ -56,7 +56,7 @@ background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
   font-family: sans-serif;
 }
 #navbar a{
-  font-size: 2.2vw;
+  font-size: 2.2vw !important;
   text-decoration: none;
   color: rgb(94, 92, 92);  
 FONT-WEIGHT: BOLD;
