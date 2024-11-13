@@ -6,6 +6,10 @@
   align-items: center !important;
   flex-wrap: wrap;
   }
+  #nav-bar a{
+    font-size: 2vw !important; 
+    margin-top: -10px !important;
+  }
   .project-tile p, iframe{
     width: 35rem !important;
   }
@@ -61,18 +65,20 @@ background: -webkit-linear-gradient(45deg,#DAE2F8,#D6A4A4);
   color: rgb(94, 92, 92);  
 FONT-WEIGHT: BOLD;
   TEXT-SHADOW: 1PX 1PX rgb(201, 160, 160);
-  font-size: 18px;   
+  font-size: 2.5vw;   
 }
 
 .flex-container1{
+ 
   display: flex;
   flex-direction: row;
- margin-top: 30px;
+ margin-top: 20px;
   
  justify-content: flex-end;
 }
 
 .flex-container1::after {
+  
   content: "";
 width: 32px;
 }
