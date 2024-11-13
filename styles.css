@@ -189,7 +189,7 @@ p{
 }
 .project-tile p{
   background-color: rgba(74, 69, 69,0.8);
-  height: 45px;
+ 
   margin-top: -4px;
   border: 1px solid black;
   vertical-align: middle;
@@ -198,13 +198,15 @@ p{
   FONT-WEIGHT: BOLD;
   TEXT-SHADOW: 1PX 1PX BLACK;;
   border-radius: 5px;
-  width: 340px;
+  
   
   
 }
+.project-tile p, iframe{
+    width: 20rem ;
+  }
 iframe{
- width: 340px;
- height: 340px;
+
   border: 10px solid gray;
   margin-bottom: -4px;
   border: 1px solid black;
